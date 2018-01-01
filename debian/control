@@ -1,0 +1,14 @@
+Source: calamares-neptune
+Section: devel
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9),
+Standards-Version: 3.9.6
+
+Package: calamares-neptune
+Architecture: amd64
+Depends: calamares
+Description: distribution-independent installer framework
+ distribution-independent installer framework.
+ .
+ This package contains the calamares settings and branding for Neptune.

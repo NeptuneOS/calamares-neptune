@@ -1,0 +1,24 @@
+calamares-neptune (1.3) stretch; urgency=medium
+
+  * Allow setting up root password by default
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 01 Jan 2018 11:26:32 +0100
+
+calamares-neptune (1.2) stretch; urgency=medium
+
+  * Added default grubcfg module conf which sets "quiet splash" as default
+    parameters
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 18 Aug 2017 11:04:40 +0200
+
+calamares-neptune (1.1) stretch; urgency=medium
+
+  * Fix installing for thunderbird locales
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 23 Jun 2017 19:27:47 +0200
+
+calamares-neptune (1.0) stretch; urgency=low
+
+  * Initial release
+
+ -- Leszek Lesner <leszek@zevenos.com>  Thu, 22 Jun 2017 11:49:15 +0200
