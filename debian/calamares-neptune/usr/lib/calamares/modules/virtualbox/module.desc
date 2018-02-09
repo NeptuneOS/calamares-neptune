@@ -1,5 +1,0 @@
----
-type:       "job"
-name:       "virtualbox"
-interface:  "python"
-script:     "main.py"

@@ -4,8 +4,8 @@ componentName:  neptune
 strings:
     productName:         Neptune 
     shortProductName:    
-    version:             4.9.0
-    shortVersion:        4.9
+    version:             5.0.0
+    shortVersion:        5.0
     versionedName:       Neptune
     shortVersionedName:  Neptune 5
     bootloaderEntryName: Neptune 
