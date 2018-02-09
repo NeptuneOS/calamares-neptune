@@ -1,3 +1,9 @@
+calamares-neptune (1.6) stretch; urgency=medium
+
+  * Update disable/enable sudo scripts
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 09 Feb 2018 18:16:50 +0100
+
 calamares-neptune (1.5) stretch; urgency=medium
 
   * Add scripts for configuring sudo/su for kdesu
