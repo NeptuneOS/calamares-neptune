@@ -1,3 +1,15 @@
+calamares-neptune (1.8) stretch; urgency=medium
+
+  * Also try installing lightning-l10n locale package
+
+ -- Leszek Lesner <leszek@zevenos.com>  Mon, 05 Mar 2018 16:58:19 +0100
+
+calamares-neptune (1.7) stretch; urgency=medium
+
+  * Add full disk encryption support with LUKS
+
+ -- Leszek Lesner <leszek@zevenos.com>  Fri, 09 Feb 2018 22:10:18 +0100
+
 calamares-neptune (1.6) stretch; urgency=medium
 
   * Update disable/enable sudo scripts
