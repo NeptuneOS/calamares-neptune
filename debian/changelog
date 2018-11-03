@@ -1,3 +1,25 @@
+calamares-neptune (1.11) stretch; urgency=medium
+
+  * Enable LuksAutomaticEncryption
+  * Rerun initramfs module after virtualbox got removed
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 06 Jun 2018 19:38:08 +0200
+
+calamares-neptune (1.10) stretch; urgency=medium
+
+  * Add link to /usr/lib/x86_64-linux-gnu for calamares modules
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 06 Jun 2018 12:28:45 +0200
+
+calamares-neptune (1.9) stretch; urgency=medium
+
+  * Try installing more localization support
+    * Hyphenation
+    * Thesaurus
+    * Dictionary
+
+ -- Leszek Lesner <leszek@zevenos.com>  Wed, 14 Mar 2018 16:15:59 +0100
+
 calamares-neptune (1.8) stretch; urgency=medium
 
   * Also try installing lightning-l10n locale package
