@@ -1,5 +1,6 @@
 ---
 componentName:  neptune
+slideshowAPI:  1
 
 strings:
     productName:         Neptune 
