@@ -5,10 +5,10 @@ slideshowAPI:  1
 strings:
     productName:         Neptune 
     shortProductName:    
-    version:             6.0.0
-    shortVersion:        6.0
+    version:             7.0.0
+    shortVersion:        7.0
     versionedName:       Neptune
-    shortVersionedName:  Neptune 6
+    shortVersionedName:  Neptune 7
     bootloaderEntryName: Neptune 
 
 images:

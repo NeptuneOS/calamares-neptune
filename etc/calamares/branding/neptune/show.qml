@@ -183,4 +183,22 @@ Presentation
             horizontalAlignment: Text.Center
         }
     }
+    
+    Slide {
+
+        Image {
+            id: background8
+            source: "slide9.png"
+            width: 810; height: 486
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background6.horizontalCenter
+            anchors.top: background6.bottom
+            text: ""
+            width: 600
+            horizontalAlignment: Text.Center
+        }
+    }
 }
