@@ -1,3 +1,9 @@
+calamares-neptune (1.15) bullseye; urgency=medium
+
+  * Updated Branding for Neptune 7
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 09 Nov 2021 10:53:45 +0100
+
 calamares-neptune (1.14) buster; urgency=medium
 
   * Live medium path changed

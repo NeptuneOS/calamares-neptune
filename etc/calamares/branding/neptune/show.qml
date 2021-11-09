@@ -187,7 +187,7 @@ Presentation
     Slide {
 
         Image {
-            id: background8
+            id: background9
             source: "slide9.png"
             width: 810; height: 486
             fillMode: Image.PreserveAspectFit
