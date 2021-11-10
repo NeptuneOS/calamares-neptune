@@ -17,7 +17,7 @@
  */
 
 /*
- * Change slides width and height from 800x480px to 810x510px to remove side lines
+ * Change slides width and height from 810x480px to 810x480px to remove side lines
  * Slides images dimensions are 1600x960px.
  */
 
@@ -27,6 +27,7 @@ import calamares.slideshow 1.0;
 Presentation
 {
     id: presentation
+    anchors.fill: parent
 
     Timer {
         interval: 20000
@@ -34,15 +35,17 @@ Presentation
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
-    
+
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background1
             source: "slide1.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background1.horizontalCenter
@@ -55,13 +58,15 @@ Presentation
     }
 
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background2
             source: "slide2.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background2.horizontalCenter
@@ -74,13 +79,15 @@ Presentation
     }
 
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background3
             source: "slide3.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background3.horizontalCenter
@@ -93,13 +100,15 @@ Presentation
     }
 
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background4
             source: "slide4.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background4.horizontalCenter
@@ -112,13 +121,15 @@ Presentation
     }
 
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background5
             source: "slide5.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background5.horizontalCenter
@@ -131,13 +142,15 @@ Presentation
     }
     
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background6
             source: "slide6.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background6.horizontalCenter
@@ -149,13 +162,15 @@ Presentation
     }
     
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background7
             source: "slide7.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background6.horizontalCenter
@@ -167,13 +182,15 @@ Presentation
     }
     
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background8
             source: "slide8.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background6.horizontalCenter
@@ -185,13 +202,15 @@ Presentation
     }
     
     Slide {
+        anchors.fill: parent
 
         Image {
             id: background9
             source: "slide9.png"
-            width: 810; height: 510
+            width: 810; height: 480
             fillMode: Image.PreserveAspectFit
-            anchors.centerIn: parent
+            //anchors.centerIn: parent
+            anchors.fill: parent
         }
         //Text {
             //anchors.horizontalCenter: background6.horizontalCenter
