@@ -1,3 +1,9 @@
+calamares-neptune (1.16) bullseye; urgency=medium
+
+  * Fix show.qml broken
+
+ -- Leszek Lesner <leszek@zevenos.com>  Tue, 09 Nov 2021 13:28:30 +0100
+
 calamares-neptune (1.15) bullseye; urgency=medium
 
   * Updated Branding for Neptune 7

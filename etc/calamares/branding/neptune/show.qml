@@ -17,7 +17,7 @@
  */
 
 /*
- * Change slides width and height from 800x480px to 810x486px to remove side lines
+ * Change slides width and height from 800x480px to 810x510px to remove side lines
  * Slides images dimensions are 1600x960px.
  */
 
@@ -40,18 +40,18 @@ Presentation
         Image {
             id: background1
             source: "slide1.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: ""
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background1.horizontalCenter
+            //anchors.top: background1.bottom
+            //text: ""
+            //wrapMode: Text.WordWrap
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
 
     Slide {
@@ -59,18 +59,18 @@ Presentation
         Image {
             id: background2
             source: "slide2.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background2.horizontalCenter
-            anchors.top: background2.bottom
-            text: ""
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background2.horizontalCenter
+            //anchors.top: background2.bottom
+            //text: ""
+            //wrapMode: Text.WordWrap
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
 
     Slide {
@@ -78,18 +78,18 @@ Presentation
         Image {
             id: background3
             source: "slide3.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background3.horizontalCenter
-            anchors.top: background3.bottom
-            text: ""
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background3.horizontalCenter
+            //anchors.top: background3.bottom
+            //text: ""
+            //wrapMode: Text.WordWrap
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
 
     Slide {
@@ -97,18 +97,18 @@ Presentation
         Image {
             id: background4
             source: "slide4.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background4.horizontalCenter
-            anchors.top: background4.bottom
-            text: ""
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background4.horizontalCenter
+            //anchors.top: background4.bottom
+            //text: ""
+            //wrapMode: Text.WordWrap
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
 
     Slide {
@@ -116,18 +116,18 @@ Presentation
         Image {
             id: background5
             source: "slide5.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background5.horizontalCenter
-            anchors.top: background5.bottom
-            text: ""
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background5.horizontalCenter
+            //anchors.top: background5.bottom
+            //text: ""
+            //wrapMode: Text.WordWrap
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
     
     Slide {
@@ -135,17 +135,17 @@ Presentation
         Image {
             id: background6
             source: "slide6.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background6.horizontalCenter
-            anchors.top: background6.bottom
-            text: ""
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background6.horizontalCenter
+            //anchors.top: background6.bottom
+            //text: ""
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
     
     Slide {
@@ -153,17 +153,17 @@ Presentation
         Image {
             id: background7
             source: "slide7.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background6.horizontalCenter
-            anchors.top: background6.bottom
-            text: ""
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background6.horizontalCenter
+            //anchors.top: background6.bottom
+            //text: ""
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
     
     Slide {
@@ -171,17 +171,17 @@ Presentation
         Image {
             id: background8
             source: "slide8.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background6.horizontalCenter
-            anchors.top: background6.bottom
-            text: ""
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background6.horizontalCenter
+            //anchors.top: background6.bottom
+            //text: ""
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
     
     Slide {
@@ -189,16 +189,16 @@ Presentation
         Image {
             id: background9
             source: "slide9.png"
-            width: 810; height: 486
+            width: 810; height: 510
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }
-        Text {
-            anchors.horizontalCenter: background6.horizontalCenter
-            anchors.top: background6.bottom
-            text: ""
-            width: 600
-            horizontalAlignment: Text.Center
-        }
+        //Text {
+            //anchors.horizontalCenter: background6.horizontalCenter
+            //anchors.top: background6.bottom
+            //text: ""
+            //width: 600
+            //horizontalAlignment: Text.Center
+        //}
     }
 }
